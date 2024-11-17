@@ -6,7 +6,8 @@ namespace Tyuiu.NajibN.Sprint1.Task0.V2.Lib
     {
         public double Calculate()
         {
-            return (3 / 3 * 2 + 12 / 4 / 3 - 2);
+            double result = (3.0 / 3.0 * 2.0) + (12.0 / 4.0 / 3.0) - 2.0;
+            return result;
         }
     }
 }
