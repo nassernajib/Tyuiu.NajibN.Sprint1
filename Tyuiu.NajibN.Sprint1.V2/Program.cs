@@ -25,7 +25,16 @@ namespace Tyuiu.NajibN.Sprint1.V2
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
+            DataService dataService = new DataService();
 
+            // Calculate the result
+            double result = dataService.Calculate();
+
+            // Print the result to the console
+            Console.WriteLine($"The result of the expression is: {result}");
+
+            // Wait for a key press before closing
+            Console.ReadKey();
         }
     }
 }
